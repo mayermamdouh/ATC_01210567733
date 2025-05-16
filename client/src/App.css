@@ -1,0 +1,110 @@
+@import "tailwindcss";
+:root {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.light {
+  --color-text: #333333;
+  --color-title: #1a1a1a;
+  --color-appbar: #f0f0f0;
+  --color-footer: #f7f7f7;
+  --color-accent: #dcdcdc;
+  --color-bg: #ffffff;
+}
+
+
+.dark {
+  --color-text: #e4e4e4;
+  --color-title: #f0f0f0;
+  --color-appbar: #1a1a1a;
+  --color-footer: #1a1a1a;
+  --color-accent: #2e2e2e;
+  --color-bg: #121212;
+}
+
+body {
+  color: var(--color-title);
+  background-color: var(--color-bg);
+  font-family: 'Inter', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--color-title);
+  font-size: 22px;
+  font-weight: 600;
+  margin: 30px 0;
+}
+
+.bgEventAdmin{
+  background-color: var(--color-appbar);
+}
+
+nav {
+  background-color: var(--color-appbar);
+  color: var(--color-text);
+}
+
+footer {
+  background-color: var(--color-footer);
+  color: var(--color-text);
+}
+
+.asideBackground {
+  background-color: var(--color-accent);
+  color: var(--color-text);
+}
+
+button {
+  padding: 0.3rem 1rem;
+  background-color: #04AA6D; 
+  color: white;
+  border: none;
+  border-radius: 0.375rem;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 15px;
+  transition:
+    background-color 0.3s ease,
+    transform 0.2s ease;
+}
+
+button.edit {
+  background-color: #fbbf24;
+}
+
+button.edit:hover {
+  background-color: #f59e0b;
+}
+
+button.delete {
+  background-color: #ef4444;
+}
+
+button.delete:hover {
+  background-color: #dc2626;
+}
+
+button:hover {
+  background-color: #03895a;
+  transform: scale(1.03);
+}
+
+button.read {
+  background-color: #16a34a;
+}
+
+button.read:hover {
+  background-color: #15803d;
+}
+
+p.error{
+  color: rgb(204, 0, 0);
+  font-size: 16px;
+  font-weight: 600;
+}
+
