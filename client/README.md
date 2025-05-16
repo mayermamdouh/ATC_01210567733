@@ -76,8 +76,8 @@ client/
 1. **Clone the Repo**
 
 ```bash
-git clone https://github.com/your-username/event-booking-system.git
-cd event-booking-system/client
+git clone https://github.com/mayermamdouh/ATC_01210567733.git
+cd ATC_01210567733/client
 ```
 
 2. **Install Dependencies**
