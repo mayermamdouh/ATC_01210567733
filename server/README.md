@@ -130,5 +130,6 @@ npm run dev
 
 - Ensure MongoDB is running
 - Make sure uploads folder exists and is writable
+- The backend can be deployed on platforms like Render, but I couldn’t complete the deployment because my credit card is expired.
 
 ---
