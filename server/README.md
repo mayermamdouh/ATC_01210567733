@@ -77,8 +77,7 @@ server/
 1. **Clone the Repo**
 
 ```bash
-git clone https://github.com/your-username/event-booking-system.git
-cd event-booking-system/server
+git clone https://github.com/mayermamdouh/ATC_01210567733.git
 ````
 
 2. **Install Dependencies**
