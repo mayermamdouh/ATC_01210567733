@@ -116,7 +116,7 @@ VITE_API_URL=http://localhost:3001
 
 ---
 
-## 📝 Notes
+## Notes
 
 - This frontend is built to work with an Express.js backend
 - Roles determine what the user can see or do

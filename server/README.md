@@ -14,6 +14,18 @@ This is the backend for the Event Booking Web App, built using **Express.js**. I
 
 ---
 
+## Test Admin Credentials
+
+Use the following credentials to log in as an admin for testing purposes:
+
+- **Email**: `admin@gmail.com`
+- **Password**: `Admin123!!`
+
+> These credentials are for testing.
+
+```markdown
+> Note: You can also manually make any user an admin by updating their `role` in MongoDB Atlas to `"ADMIN"`.
+
 ## Features
 
 ### Authentication
@@ -44,8 +56,8 @@ This is the backend for the Event Booking Web App, built using **Express.js**. I
 ---
 
 ## Folder Structure
-
 ```
+
 server/
 ├── controllers/
 ├── middlewares/
@@ -55,7 +67,8 @@ server/
 ├── utils/
 ├── index.js
 ├── .env
-```
+
+````
 
 ---
 
@@ -66,7 +79,7 @@ server/
 ```bash
 git clone https://github.com/your-username/event-booking-system.git
 cd event-booking-system/server
-```
+````
 
 2. **Install Dependencies**
 
@@ -74,24 +87,24 @@ cd event-booking-system/server
 npm install
 ```
 
-3. **Environment Setup**
-   Create a `.env` file:
+3. **Environment Variables for Testing**
 
-```bash
-PORT=3001
-MONGODB_URI=your_mongodb_uri
-JWT_SECRET=your_jwt_secret
-```
+This project is for a coding competition. You can use the following environment variables to run the backend
+
+````env
+MONGO_URL = mongodb+srv://mnoshyy485:AREEBTASKK@areebtaskk.koxh5hu.mongodb.net/?retryWrites=true&w=majority&appName=AREEBTASKK
+JWT_SECRET_KEY = 481a92a8f623cd75032a896ba1fcbeeea255fa01de18ba3bf9f1f7aed4dbd0e8
+PORT = 3001
 
 4. **Run the Server**
 
 ```bash
 npm run dev
-```
+````
 
 ## This will start the server using nodemon in development mode.
 
-## 📬 API Endpoints
+## API Endpoints
 
 ### Auth
 

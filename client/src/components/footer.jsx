@@ -76,7 +76,7 @@ const Footer = () => {
             </div>
 
             <div className="group cursor-pointer">
-              <AiFillTikTok className="text-white text-3xl transition duration-300 group-hover:scale-110 group-hover:text-[#25F4EE]" />
+              <AiFillTikTok className="text-gray-700 text-3xl transition duration-300 group-hover:scale-110 group-hover:text-[#25F4EE]" />
             </div>
           </div>
         </div>

@@ -54,6 +54,22 @@ export const AuthProvider = ({ children }) => {
     }
   }, []);
 
+  useEffect(() => {
+    const storedToken = localStorage.getItem("token");
+    if (storedToken) {
+      const decoded = jwtDecode(storedToken);
+      const currentTime = Date.now() / 1000;
+      if (decoded.exp < currentTime) {
+        logout();
+        setMessage("Your token expired, please login again.");
+      } else {
+        setToken(storedToken);
+        setUserId(decoded?.id);
+        setRole(decoded?.role);
+      }
+    }
+  }, []);
+
   const login = (jwtToken) => {
     const decoded = jwtDecode(jwtToken);
     setToken(jwtToken);
