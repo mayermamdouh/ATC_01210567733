@@ -55,7 +55,7 @@ const login = asyncWrapper(async (req, res, next) => {
   }
 
   const matchPassword = await bcrypt.compare(password, user.password);
-  const expiresIn = user.role === "ADMIN" ? "7d" : "1m";
+  const expiresIn = user.role === "ADMIN" ? "7d" : "1d";
   let token = jwt.sign(
     { email: user.email, id: user._id, role: user.role },
     process.env.JWT_SECRET_KEY,
