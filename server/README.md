@@ -78,6 +78,7 @@ server/
 
 ```bash
 git clone https://github.com/mayermamdouh/ATC_01210567733.git
+cd ATC_01210567733/server
 ````
 
 2. **Install Dependencies**
