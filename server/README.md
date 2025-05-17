@@ -89,7 +89,7 @@ npm install
 
 3. **Environment Variables for Testing**
 
-This project is for a coding competition. You can use the following environment variables to run the backend
+This project is for a coding competition. You can use the following environment variables to run the backend, 
 Create a `.env` file in the root directory and add:
 ````env
 MONGO_URL = mongodb+srv://mnoshyy485:AREEBTASKK@areebtaskk.koxh5hu.mongodb.net/?retryWrites=true&w=majority&appName=AREEBTASKK
