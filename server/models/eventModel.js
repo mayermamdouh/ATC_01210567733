@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 const EventSchema = mongoose.Schema({
   photo: {
     type: String,
-    required: [true, "Photo is required for the product"],
+    required: [true, "Photo is required for the event"],
   },
   name: {
     type: String,
